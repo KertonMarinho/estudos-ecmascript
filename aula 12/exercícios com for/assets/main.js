@@ -6,13 +6,13 @@ const elementos = [
 ];
 //seleciona o elemento do html classe .container
 const container = document.querySelector('.container');//classe.container
-//cria elemento  no h1
+//cria elemento div e armazena na variável
 const div = document.createElement('div');
 //percorrer(interar) o elemento com for
 for(let i = 0; i< elementos.length; i++){
     //desestruturação do object:
     let {tag, texto } = elementos[i];
-    //cada um dos elementos vou criar um elemento
+    //cada interação criar um elemento
     let tagCriada = document.createElement(tag);
     //adiciona texto na tag criada para
     tagCriada.innerHTML = texto;//pode mudar,ser mais seguro,inerhtml por inertext
