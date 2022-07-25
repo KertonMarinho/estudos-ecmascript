@@ -19,4 +19,5 @@ for(let i = 0; i< elementos.length; i++){
     //adicionar o elemento em uma tag
     div.appendChild(tagCriada);
 }
+//adicione um filho(div) a classe container
 container.appendChild(div);
