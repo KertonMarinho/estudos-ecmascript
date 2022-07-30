@@ -1,0 +1,1 @@
+aula com exercício while e função randomica
