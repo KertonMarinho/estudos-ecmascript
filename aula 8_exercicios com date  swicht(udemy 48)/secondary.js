@@ -33,3 +33,4 @@ function criaDate(date) {
 
 //coloca a data na tag h1
 h1.innerHTML = criaDate(date);
+ 
